@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://learning.c0cypay7orlu.us-west-2.rds.amazonaws.com:3306/employee
+    username: gkellampalli
+    password: gkellampalli
+    platform: mysql
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    
+  
+  
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8001
+  
+    
